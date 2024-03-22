@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo de Adivinhar a Música</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Jogo de Adivinhar a Música</h1>
+    <label for="music-input">Qual é o nome desta música?</label>
+    <input type="text" id="music-input" placeholder="Insira o nome da música">
+    <button onclick="checkAnswer()">Verificar Resposta</button>
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Reproduzir Música Aleatória com URL</title>
+</head>
+<body>
+    <audio id="audioPlayer" controls>
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+    <button onclick="tocarMusica()">Tocar Música Aleatória</button>
+    <p id="nomeMusica"></p>
+</body>
+</html>

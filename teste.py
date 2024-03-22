@@ -14,6 +14,8 @@ import webbrowser
 # URL que deseja abrir
 url = "https://youtu.be/iCFUV9aJA_Y"
 url="https://www.youtube.com/watch?v=nM_gEzvhsM"
+url="https://youtu.be/kyShivypOjo"
+
 # Abrir a URL no navegador padrão
 webbrowser.open(url)
 
